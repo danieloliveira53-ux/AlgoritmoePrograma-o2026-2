@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class MaiorDeIdade {
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        String nome;
+        int idade;
+
+        System.out.println("Digite o seu nome");
+         nome = leia.nextLine();
+
+        System.out.println("Digite a sua idade");
+         idade = leia.nextInt();
+
+        if (idade >= 18) {
+            System.out.println("Participação autorizada");
+        }
+        else{
+            System.out.println("Necessária autorização dos responsáveis");
+        }
+
+
+
+
+
+
+    }
+}
