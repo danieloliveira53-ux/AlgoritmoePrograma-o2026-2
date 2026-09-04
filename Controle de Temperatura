@@ -1,13 +1,15 @@
 import java.util.Scanner; //importei a biblioteca Scanner
 
-public class Main {  //classe do algoritmo
+public class ControleDeTemperatura {  //classe do algoritmo
 
     public static void main(String[] args) {  //metodo main do algoritmo
 
         double temperatura;  //decidi pela variavel double
         Scanner leia = new Scanner (System.in);  //com a biblioteca Scanner nomeei "leia" para mostrar na tela o numero digitado
+
         System.out.println("Digite a temperatura");
        temperatura = leia.nextDouble();
+
         if (temperatura >= 28) {  //se temperatura estiver com 28 graus ou mais
             System.out.println("ligar Ar condicionado");  //comando ligar ar condicionado
         }
