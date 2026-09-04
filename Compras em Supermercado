@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class compras {
+public class Compras {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         double quantidade;
@@ -8,10 +8,10 @@ public class compras {
         double valortotal;
 
         System.out.println("Digite a quantidade de produtos");
-        leia quantidade = leia.nextDouble();
+         quantidade = leia.nextDouble();
 
         System.out.println("Digite o valor unitario");
-        leia valorunitario = leia.nextDouble();
+         valorunitario = leia.nextDouble();
 
         valortotal = quantidade * valorunitario;
 
