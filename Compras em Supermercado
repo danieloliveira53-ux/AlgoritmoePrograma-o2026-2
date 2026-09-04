@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class compras {
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+        double quantidade;
+        double valorunitario;
+        double valortotal;
+
+        System.out.println("Digite a quantidade de produtos");
+        leia quantidade = leia.nextDouble();
+
+        System.out.println("Digite o valor unitario");
+        leia valorunitario = leia.nextDouble();
+
+        valortotal = quantidade * valorunitario;
+
+        System.out.println("valortotal: R$ " );
+
+        if (valortotal >100) {
+            System.out.println("Você ganhou frete gratis");
+        }
+                else{
+                System.out.println("Frete não disponível");
+            }
+                
+            }
+            }
+        
