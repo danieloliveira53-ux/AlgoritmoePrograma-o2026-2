@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Exercicio1{
+public static void main(String[] args) {
+    Scanner leia = new Scanner(System.in);
+    double distanciaPercorrida;
+    double consumoDoCaro;
+    double precoDoCombustivel;
+    double litrosGastos;
+    double custoTotal;
+    System.out.println("Digite a Distancia Percorrida");
+    distanciaPercorrida = leia.nextDouble();
+    System.out.println("Digite o Consumo do Carro em KM/L ");
+    consumoDoCaro = leia.nextDouble();
+    System.out.println("Digite o preço do Combustivel em R$");
+    precoDoCombustivel = leia.nextDouble();
+    litrosGastos = distanciaPercorrida / consumoDoCaro;
+    custoTotal = litrosGastos * precoDoCombustivel;
+    System.out.println("Litros Gastos: " + litrosGastos );
+
+    System.out.println("Custo Total: " + custoTotal);
+
+}
+
+}
